@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/56fb859810.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Happy Birthday</title>
+</head>
+<body id="home">
+    <section class="landing">
+        <div class="landing-inner">
+            <nav class="navbar">
+                <div class="container">
+                    <h1 class="logo">Birthday</h1>
+                    <ul class="nav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#letter">Letter</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Showcase -->
+            <section class="section-a">
+                <div class="container">
+                    <div>
+                        <h1>About in brief</h1>
+                        <p>content for about</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                    <img src="./img/imgTogether.jpg" alt="imgTogether">
+                </div>
+            </section>
+
+            
+
+            <!-- Gallery -->
+            <section class="section-c">
+                <div class="gallery">
+                    <a href="https://i.ibb.co/CHLBZnp/gal2323.jpg" class="big"
+                        ><img src="https://i.ibb.co/CHLBZnp/gal2323.jpg" alt=""
+                    /></a>
+                    <a href="https://i.ibb.co/4pBbhfY/gal39834.jpg" class="big"
+                        ><img src="https://i.ibb.co/4pBbhfY/gal39834.jpg" alt=""
+                    /></a>
+                    <a href="https://i.ibb.co/xSnHP7g/gal43884.jpg" class="big"
+                        ><img src="https://i.ibb.co/xSnHP7g/gal43884.jpg" alt=""
+                    /></a>
+                    <a href="https://i.ibb.co/QN6Bnrb/gal4958.jpg" class="big"
+                        ><img src="https://i.ibb.co/QN6Bnrb/gal4958.jpg" alt=""
+                    /></a>
+                    <a href="https://i.ibb.co/dGZvj75/gal4545.jpg" class="big">
+                        <img src="https://i.ibb.co/dGZvj75/gal4545.jpg" alt=""
+                    /></a>
+                    <a href="https://i.ibb.co/S6FVFNt/gal74744.jpg" class="big"
+                        ><img src="https://i.ibb.co/S6FVFNt/gal74744.jpg" alt=""
+                    /></a>
+                </div>
+            </section>
+
+            <!-- Overlay text -->
+            <section class="section-b">
+                <div class="overlay">
+                    <div class="section-b-inner">
+                        <h3>Now the letter you wanted to write</h3>
+                        <h2>Optional</h2>
+                        <p>actual text</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <script src="./js/simple-lightbox.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        window.onload = () => {
+            const gallery = new SimpleLightbox('.gallery a');
+        }
+    </script>
+</body>
+</html>
